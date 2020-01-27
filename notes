@@ -1,0 +1,56 @@
+
+v314-ent-013:~ student$ cd ~/lab_01_commandline_01/
+v314-ent-013:lab_01_commandline_01 student$ git branch
+* master
+v314-ent-013:lab_01_commandline_01 student$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   lab-entering-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+v314-ent-013:lab_01_commandline_01 student$ git add -A
+v314-ent-013:lab_01_commandline_01 student$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   lab-entering-commands.txt
+
+v314-ent-013:lab_01_commandline_01 student$ git commit -m "my first lab"
+[master c61e225] my first lab
+ Committer: Student <student@v314-ent-013.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 27 insertions(+), 17 deletions(-)
+v314-ent-013:lab_01_commandline_01 student$ git push origin master
+Username for 'https://github.com': LingMeiWu
+Password for 'https://LingMeiWu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/LingMeiWu/lab_01_commandline_01.git/'
+v314-ent-013:lab_01_commandline_01 student$ git push origin master
+Username for 'https://github.com': LingMeiWu
+Password for 'https://LingMeiWu@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 887 bytes | 887.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/LingMeiWu/lab_01_commandline_01.git
+   3583a8e..c61e225  master -> master
+v314-ent-013:lab_01_commandline_01 student$ 
