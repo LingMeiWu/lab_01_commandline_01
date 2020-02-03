@@ -127,20 +127,20 @@ Command and argument
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+The TAB key to autocomplete a command or file name.
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+The main command that we used throughout this exercise was ls.
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Documents was one of the argument.
 
 ==========
 14.  Type:
@@ -149,7 +149,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -159,7 +159,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -169,3 +169,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls, the flag is -a, the argument is Desktop, and the prompt is to allow us to view hidden files within the Desktop.
