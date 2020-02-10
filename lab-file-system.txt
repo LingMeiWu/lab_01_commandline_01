@@ -232,7 +232,7 @@ drwxr-xr-x  2 student  staff   68 Feb 10 16:43 aardvark
 
 What command did you use?
 ----------
-
+mkdir food/bar/baz
 
 
 ==========
@@ -240,7 +240,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd baz
 
 
 ==========
